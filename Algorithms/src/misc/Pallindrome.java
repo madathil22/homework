@@ -1,7 +1,7 @@
 package misc;
 
 
-//git comment test
+//git comment test //test #2
 public class Pallindrome {
 	public String reverse(String inp,int pointer){
 		if(pointer<0){

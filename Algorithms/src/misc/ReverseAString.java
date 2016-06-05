@@ -1,7 +1,7 @@
 package misc;
 
 public class ReverseAString {
-
+//c2
 	public String reverse(String inp,int pointer){
 		if(pointer<0){
 			return "";

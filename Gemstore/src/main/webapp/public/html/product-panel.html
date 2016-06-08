@@ -1,0 +1,38 @@
+<ul class="nav nav-pills">
+  <li ng-class='{active:panel.isSelected(1)}'><a ng-click="panel.setSelected(1)">Description</a> </li>
+  <li ng-class='{active:panel.isSelected(2)}'><a ng-click="panel.setSelected(2)">Reviews</a></li>
+</ul>
+<div class="panel" ng-show="panel.isSelected(1)">
+  <p>
+    {{product.desc}}
+  </p>
+</div>
+<div class="panel" ng-show="panel.isSelected(2)">
+  <blockquote ng-repeat="review in product.reviews">
+    <b>{{review.rating}} Star</b><br>
+    {{review.comment}}<br>
+    -{{review.user}}
+  </blockquote>
+  <form name="reviewform" ng-controller="ReviewController as rwctrl" ng-submit="reviewform.$valid && rwctrl.submitReview(product)" novalidate>
+    <blockquote>
+      <b>{{rwctrl.review.rating}} Star</b><br>
+      {{rwctrl.review.comment}}<br>
+      - {{rwctrl.review.user}}
+    </blockquote>
+
+    <fieldset class="form-group">
+      <select ng-model="rwctrl.review.rating" class="form-control" ng-options="stars for stars in [5,4,3,2,1]"  title="Stars" required>
+        <option value="">Rate the Product</option>
+      </select>
+    </fieldset>
+    <fieldset class="form-group">
+      <textarea ng-model="rwctrl.review.comment" class="form-control" placeholder="Enter a Review..." required></textarea>
+    </fieldset>
+    <fieldset class="form-group">
+      <input type="email" ng-model="rwctrl.review.user" class="form-control" placeholder="author@xyz.com" required>
+    </fieldset>
+    <fieldset class="form-group">
+      <button class="btn btn-default btn-lg" type="submit"><span class="glyphicon glyphicon glyphicon-ok" aria-hidden="true"></span>Submit</button>
+    </fieldset>
+  </form>
+</div>

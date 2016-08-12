@@ -1,0 +1,18 @@
+{
+  "name": "notter",
+  "authors": [
+    "madathil22 <abraham.madathil@gmail.com>"
+  ],
+  "description": "note taking app",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ]
+}

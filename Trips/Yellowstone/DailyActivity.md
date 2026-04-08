@@ -1,3 +1,8 @@
+---
+layout: default
+title: Daily Activity
+---
+
 # 🌄 Yellowstone & Grand Teton Trip (Part 1)
 **Dates Covered:** May 23 – May 26  
 **From/To:** Newark Liberty International Airport (EWR)

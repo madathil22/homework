@@ -1,3 +1,8 @@
+---
+layout: default
+title: Trip TODO
+---
+
 # 🧾 Trip TODO — Yellowstone & Grand Teton (May 23–29)
 
 ---

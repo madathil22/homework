@@ -85,11 +85,43 @@
             padding-top: 20px;
             border-top: 1px solid #eee;
         }
+
+        input[type="checkbox"] {
+            cursor: pointer;
+            margin-right: 8px;
+            accent-color: #667eea;
+        }
+
+        input[type="checkbox"]:checked + label {
+            text-decoration: line-through;
+            color: #aaa;
+        }
+
+        label {
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         {{ content }}
     </div>
+
+    <script>
+        // Make checkboxes interactive and persist state
+        document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+            const key = 'checkbox_' + checkbox.nextElementSibling.textContent.substring(0, 50);
+            
+            // Load saved state
+            if (localStorage.getItem(key)) {
+                checkbox.checked = JSON.parse(localStorage.getItem(key));
+            }
+            
+            // Save state on change
+            checkbox.addEventListener('change', function() {
+                localStorage.setItem(key, JSON.stringify(this.checked));
+            });
+        });
+    </script>
 </body>
 </html>

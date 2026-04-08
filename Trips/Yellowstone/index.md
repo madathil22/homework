@@ -11,8 +11,8 @@ title: Yellowstone & Grand Teton Adventure
 
 ## 📋 Trip Resources
 
-- 📅 [Daily Activity](DailyActivity.md) — Day-by-day itinerary
-- ✅ [Trip TODO](Todo.md) — Bookings and prep checklist
+- 📅 [Daily Activity](DailyActivity) — Day-by-day itinerary
+- ✅ [Trip TODO](Todo) — Bookings and prep checklist
 
 ---
 

@@ -24,5 +24,3 @@ title: Yellowstone & Grand Teton Adventure
 - **Scenic drives** — Loop roads with endless mountain vistas
 
 ---
-
-[← Back to All Trips](/)

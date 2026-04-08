@@ -1,8 +1,8 @@
 title: My Trips & Adventures
 description: Travel itineraries and trip planning
 author: You
-baseurl: ""
-url: ""
+baseurl: "/homework"
+url: "https://madathil22.github.io"
 
 # Jekyll settings
 markdown: kramdown

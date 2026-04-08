@@ -3,11 +3,11 @@ layout: default
 title: Trip TODO
 ---
 
-# 🧾 Trip TODO — Yellowstone & Grand Teton (May 23–29)
+# Trip TODO — Yellowstone & Grand Teton (May 23-29)
 
 ---
 
-## 🚨 Priority Bookings (Do ASAP)
+## Priority Bookings
 
 - [ ] Book **Jenny Lake boat shuttle tickets**  
   - 📍 Grand Teton National Park  
@@ -21,23 +21,26 @@ title: Trip TODO
 
 ---
 
-## 🚗 Travel & Logistics
+## Travel & Logistics
 
 - [ ] Reserve rental car (pickup/drop at Jackson Hole Airport)  
 - [ ] Park pass (America the Beautiful Pass OR pay at entrance)  
 - [ ] Download offline Google Maps (Wyoming + Montana)  
+- [ ] Save official Yellowstone road status page
+- [ ] Save Grand Teton alerts page
 
 ---
 
-## 🏨 Stay Coordination
+## Stay Coordination
 
 - [ ] Confirm late check-in (May 23) — Lodge at Jackson Hole  
 - [ ] Confirm cabin details — Hibernation Station  
+- [ ] Add hotel confirmation numbers to the private trip notes
 - [ ] Request quiet room (upper floor, away from elevator)  
 
 ---
 
-## 🛒 Arrival Day (May 23)
+## Arrival Day (May 23)
 
 - [ ] Grocery stop (Albertsons near hotel)  
   - Milk  
@@ -47,7 +50,7 @@ title: Trip TODO
 
 ---
 
-## 📅 Day-Specific Prep
+## Day-Specific Prep
 
 ### Sunday (Jenny Lake + Tram)
 - [ ] Leave hotel early (~6:30 AM)  
@@ -61,9 +64,15 @@ title: Trip TODO
 - [ ] Plan quick lunch (picnic or Grant Village)  
 - [ ] Grocery stop in West Yellowstone  
 
+### Wednesday-Friday (Yellowstone + departure)
+- [ ] Finalize May 27 route
+- [ ] Finalize May 28 route
+- [ ] Add May 29 checkout / rental car / flight details
+- [ ] Pick backup indoor or low-effort options in case of weather
+
 ---
 
-## 🧳 Packing Basics
+## Packing Basics
 
 - [ ] Light jackets (mornings + tram top will be cold)  
 - [ ] Comfortable walking shoes  
@@ -72,9 +81,11 @@ title: Trip TODO
 
 ---
 
-## ✅ Final Checks (1–2 days before trip)
+## Final Checks (1-2 days before trip)
 
 - [ ] Check weather (Jackson + Yellowstone)  
+- [ ] Check Yellowstone road status and construction delays
+- [ ] Check Grand Teton alerts
 - [ ] Confirm bookings (boat + tram)  
 - [ ] Download/print tickets  
 - [ ] Charge devices  

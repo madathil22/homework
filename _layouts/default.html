@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} | {{ site.title }}</title>
     <style>
+        :root {
+            --bg: #eef5f7;
+            --surface: #ffffff;
+            --surface-muted: #f5f8fa;
+            --text: #1f2a33;
+            --muted: #5e6b75;
+            --line: #d9e3e8;
+            --accent: #0f6b78;
+            --accent-dark: #0a4f5a;
+            --accent-soft: #d9eef2;
+            --warning: #a15c00;
+            --shadow: 0 14px 34px rgba(22, 48, 58, 0.14);
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -12,114 +26,290 @@
         }
         
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--text);
+            background: var(--bg);
             min-height: 100vh;
-            padding: 20px;
+            padding: 16px;
         }
         
         .container {
-            max-width: 800px;
+            max-width: 980px;
             margin: 0 auto;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-            padding: 40px;
+            background: var(--surface);
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .site-header {
+            background: #12323a;
+            color: white;
+            padding: 22px 28px;
+        }
+
+        .site-header a {
+            color: white;
+            border-bottom-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .site-title {
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 0;
+        }
+
+        .site-subtitle {
+            color: #d7e8ec;
+            margin-top: 4px;
+            font-size: 0.95rem;
+        }
+
+        .top-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 16px;
+        }
+
+        .top-nav a {
+            display: inline-flex;
+            align-items: center;
+            min-height: 38px;
+            padding: 8px 12px;
+            border: 1px solid rgba(255, 255, 255, 0.34);
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .top-nav a:hover {
+            background: rgba(255, 255, 255, 0.16);
+        }
+
+        main {
+            padding: 32px;
         }
         
         h1 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-size: 2.5em;
+            color: var(--text);
+            margin-bottom: 12px;
+            font-size: 2.2rem;
+            line-height: 1.15;
         }
         
         h2 {
-            color: #667eea;
-            margin-top: 25px;
-            margin-bottom: 15px;
-            font-size: 1.5em;
+            color: var(--accent-dark);
+            margin-top: 32px;
+            margin-bottom: 14px;
+            font-size: 1.45rem;
+            line-height: 1.25;
+        }
+
+        h3 {
+            color: var(--text);
+            margin-top: 24px;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
         }
         
         .trip-info {
-            font-size: 1.1em;
-            color: #666;
+            font-size: 1.05rem;
+            color: var(--muted);
             margin-bottom: 30px;
             font-weight: 500;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid var(--accent);
             padding-left: 15px;
         }
         
         hr {
             border: none;
-            border-top: 2px solid #eee;
+            border-top: 1px solid var(--line);
             margin: 30px 0;
         }
         
+        p {
+            margin-bottom: 14px;
+        }
+
         ul {
-            margin-left: 20px;
+            margin: 0 0 18px 22px;
         }
         
         li {
-            margin-bottom: 12px;
-            color: #555;
+            margin-bottom: 10px;
+            color: var(--text);
         }
         
         strong {
-            color: #2c3e50;
+            color: var(--text);
         }
         
         a {
-            color: #667eea;
+            color: var(--accent);
             text-decoration: none;
-            border-bottom: 1px solid #667eea;
+            border-bottom: 1px solid var(--accent);
         }
         
         a:hover {
-            color: #764ba2;
+            color: var(--accent-dark);
         }
 
         .back-link {
             margin-top: 30px;
             padding-top: 20px;
-            border-top: 1px solid #eee;
+            border-top: 1px solid var(--line);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0 24px;
+            overflow-x: auto;
+            display: block;
+        }
+
+        th,
+        td {
+            border: 1px solid var(--line);
+            padding: 10px 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background: var(--surface-muted);
+            color: var(--accent-dark);
+        }
+
+        blockquote {
+            margin: 18px 0;
+            padding: 14px 16px;
+            border-left: 4px solid var(--warning);
+            background: #fff7ea;
+            color: #4d3a21;
+        }
+
+        .quick-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 14px;
+            margin: 18px 0 24px;
+        }
+
+        .quick-card {
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 16px;
+            background: var(--surface-muted);
+        }
+
+        .quick-card h3 {
+            margin-top: 0;
+        }
+
+        .badge {
+            display: inline-block;
+            margin: 0 8px 8px 0;
+            padding: 5px 9px;
+            border-radius: 8px;
+            background: var(--accent-soft);
+            color: var(--accent-dark);
+            font-size: 0.9rem;
+            font-weight: 700;
         }
 
         input[type="checkbox"] {
             cursor: pointer;
             margin-right: 8px;
-            accent-color: #667eea;
+            accent-color: var(--accent);
         }
 
-        input[type="checkbox"]:checked + label {
+        li.task-complete {
             text-decoration: line-through;
-            color: #aaa;
+            color: #7f8c95;
         }
 
         label {
             cursor: pointer;
         }
+
+        @media (max-width: 620px) {
+            body {
+                padding: 0;
+            }
+
+            .container {
+                border-radius: 0;
+                min-height: 100vh;
+            }
+
+            .site-header,
+            main {
+                padding: 22px 18px;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+            }
+
+            .top-nav a {
+                flex: 1 1 auto;
+                justify-content: center;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        {{ content }}
+        <header class="site-header">
+            <div class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+            <div class="site-subtitle">{{ site.description }}</div>
+            <nav class="top-nav" aria-label="Trip navigation">
+                <a href="{{ '/' | relative_url }}">Trips</a>
+                <a href="{{ '/Trips/Yellowstone/' | relative_url }}">Yellowstone</a>
+                <a href="{{ '/Trips/Yellowstone/QuickGuide' | relative_url }}">Quick Guide</a>
+                <a href="{{ '/Trips/Yellowstone/DailyActivity' | relative_url }}">Daily Plan</a>
+                <a href="{{ '/Trips/Yellowstone/Todo' | relative_url }}">TODO</a>
+            </nav>
+        </header>
+        <main>
+            {{ content }}
+        </main>
     </div>
 
     <script>
-        // Make checkboxes interactive and persist state
         document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
-            const key = 'checkbox_' + checkbox.nextElementSibling.textContent.substring(0, 50);
-            
-            // Load saved state
-            if (localStorage.getItem(key)) {
-                checkbox.checked = JSON.parse(localStorage.getItem(key));
+            checkbox.disabled = false;
+            const item = checkbox.closest('li') || checkbox.parentElement;
+            const text = (item && item.textContent ? item.textContent : checkbox.outerHTML).trim();
+            const key = 'trip_checkbox_' + window.location.pathname + '_' + text.substring(0, 80);
+
+            function syncClass() {
+                if (item) {
+                    item.classList.toggle('task-complete', checkbox.checked);
+                }
             }
-            
-            // Save state on change
-            checkbox.addEventListener('change', function() {
-                localStorage.setItem(key, JSON.stringify(this.checked));
+
+            const saved = localStorage.getItem(key);
+            if (saved !== null) {
+                try {
+                    checkbox.checked = JSON.parse(saved);
+                } catch (_error) {
+                    checkbox.checked = false;
+                }
+            }
+            syncClass();
+
+            checkbox.addEventListener('change', () => {
+                localStorage.setItem(key, JSON.stringify(checkbox.checked));
+                syncClass();
             });
         });
     </script>

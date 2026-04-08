@@ -3,14 +3,21 @@ layout: default
 title: My Trips & Adventures
 ---
 
-# 🌍 My Trips & Adventures
+# My Trips & Adventures
 
-Welcome to my travel collection! Here are the trips I'm planning and documenting.
+Fast access to upcoming trip plans, checklists, and on-the-road notes.
 
-## 📍 Current Trips
+## Current Trips
 
-- **[Yellowstone & Grand Teton](Trips/Yellowstone/)** — May 23–29, 2026 (6 Nights, 7 Days)
+<div class="quick-grid">
+  <div class="quick-card">
+    <h3>Yellowstone & Grand Teton</h3>
+    <p><span class="badge">May 23-29, 2026</span><span class="badge">6 nights</span><span class="badge">7 days</span></p>
+    <p>Jackson, Grand Teton, Yellowstone, and West Yellowstone.</p>
+    <p><a href="Trips/Yellowstone/">Open trip</a></p>
+  </div>
+</div>
 
 ---
 
-*More trips coming soon!*
+More trips coming soon.

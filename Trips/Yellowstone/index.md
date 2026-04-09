@@ -37,7 +37,9 @@ title: Yellowstone & Grand Teton Adventure
 | --- | --- | --- |
 | May 23-25 | Jackson | Arrival, Grand Teton, Jenny Lake, Teton Village, Jackson Town |
 | May 26 | Jackson to West Yellowstone | Oxbow Bend, South Entrance, West Thumb Geyser Basin |
-| May 27-29 | Yellowstone / departure | Needs final planning |
+| May 27 | West Yellowstone | Geysers Day: Grand Prismatic, Old Faithful, Upper Geyser Basin, Fountain Paint Pot |
+| May 28 | West Yellowstone | Canyon + Wildlife Day: Grand Canyon of the Yellowstone, Hayden Valley, optional Norris |
+| May 29 | Departure day | West Yellowstone to Bozeman, rental car return, nonstop BZN to EWR at 11:38 AM |
 
 ## Highlights
 

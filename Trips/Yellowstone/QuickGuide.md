@@ -31,9 +31,9 @@ title: Yellowstone Quick Guide
 | Sun, May 24 | Grand Teton / Teton Village | Jenny Lake, Hidden Falls, optional Inspiration Point, Jackson Hole Aerial Tram |
 | Mon, May 25 | Grand Teton / Jackson | Scenic stops, optional Taggart Lake, Jackson Town Square |
 | Tue, May 26 | Jackson to West Yellowstone | Oxbow Bend, South Entrance, West Thumb Geyser Basin, Hibernation Station |
-| Wed, May 27 | Yellowstone | Needs plan |
-| Thu, May 28 | Yellowstone | Needs plan |
-| Fri, May 29 | Departure day | Needs flight / route details |
+| Wed, May 27 | Yellowstone | Geysers Day: Grand Prismatic overlook, Old Faithful, Upper Geyser Basin, Fountain Paint Pot |
+| Thu, May 28 | Yellowstone | Canyon + Wildlife Day: Artist Point, Lookout Point, Upper Falls, Hayden Valley, optional Norris |
+| Fri, May 29 | Departure day | Drive to Bozeman, return rental car, nonstop 11:38 AM flight from BZN to EWR |
 
 ## Must Check Before Leaving
 
@@ -61,19 +61,14 @@ title: Yellowstone Quick Guide
 
 ## Open Planning Gaps
 
-- [ ] Fill in May 27 Yellowstone plan
-- [ ] Fill in May 28 Yellowstone plan
-- [ ] Add May 29 checkout, drive, and flight details
 - [ ] Add reservation confirmation numbers
 - [ ] Add restaurants or backup meal options
 - [ ] Add gas stops and restroom-friendly stops for long drives
 
-## Simple Yellowstone Day Ideas
-
-Use these as buckets, not final decisions yet.
+## Yellowstone Day Themes
 
 - **Geyser day:** Old Faithful, Upper Geyser Basin, Grand Prismatic / Midway Geyser Basin, Fountain Paint Pot
 - **Canyon day:** Grand Canyon of the Yellowstone, Artist Point, Hayden Valley wildlife drive, Norris Geyser Basin if time allows
 - **North loop option:** Mammoth Hot Springs, Norris, Gibbon Falls, extra wildlife pullouts
 
-> Finalize Yellowstone days after checking 2026 road status, construction delays, and how much driving you want each day.
+> Your Yellowstone flow is now split into one focused geyser day and one relaxed canyon and wildlife day.

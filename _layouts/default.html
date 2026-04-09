@@ -221,6 +221,152 @@
             font-weight: 700;
         }
 
+        .hero-panel {
+            margin: 18px 0 24px;
+            padding: 22px;
+            border-radius: 16px;
+            background:
+                radial-gradient(circle at top right, rgba(255, 255, 255, 0.55), transparent 34%),
+                linear-gradient(135deg, #0f6b78, #1c8b74 58%, #b0d8c6);
+            color: white;
+            box-shadow: var(--shadow);
+        }
+
+        .hero-panel p:last-child {
+            margin-bottom: 0;
+        }
+
+        .hero-title {
+            font-size: 1.05rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            opacity: 0.92;
+            margin-bottom: 8px;
+        }
+
+        .hero-panel h2 {
+            color: white;
+            margin: 0 0 10px;
+            font-size: 1.8rem;
+        }
+
+        .hero-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 16px;
+        }
+
+        .hero-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.16);
+            border: 1px solid rgba(255, 255, 255, 0.24);
+            font-weight: 600;
+        }
+
+        .anchor-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 14px;
+            margin: 18px 0 24px;
+        }
+
+        .anchor-card {
+            border: 1px solid var(--line);
+            border-radius: 14px;
+            padding: 16px;
+            background: linear-gradient(180deg, #ffffff, #f7fafb);
+        }
+
+        .anchor-label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            font-weight: 700;
+            color: var(--accent-dark);
+        }
+
+        .icon-thumb {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 38px;
+            height: 38px;
+            border-radius: 12px;
+            background: var(--accent-soft);
+            font-size: 1.15rem;
+            flex-shrink: 0;
+        }
+
+        .anchor-card p,
+        .anchor-card small {
+            margin: 0;
+            color: var(--muted);
+        }
+
+        .day-card {
+            margin: 26px 0;
+            padding: 22px;
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            background: linear-gradient(180deg, #ffffff, #fbfdfe);
+            box-shadow: 0 8px 24px rgba(22, 48, 58, 0.08);
+        }
+
+        .day-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+
+        .day-header h3 {
+            margin: 0 0 6px;
+            font-size: 1.2rem;
+        }
+
+        .day-subtitle {
+            color: var(--muted);
+            margin: 0;
+        }
+
+        .chip-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 14px 0 6px;
+        }
+
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 7px 11px;
+            border-radius: 999px;
+            background: var(--surface-muted);
+            border: 1px solid var(--line);
+            color: var(--text);
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        .timeline-table {
+            margin-top: 16px;
+        }
+
+        .timeline-table th:first-child,
+        .timeline-table td:first-child {
+            width: 150px;
+            white-space: nowrap;
+            font-weight: 700;
+            color: var(--accent-dark);
+        }
+
         input[type="checkbox"] {
             cursor: pointer;
             margin-right: 8px;
@@ -262,6 +408,20 @@
             .top-nav a {
                 flex: 1 1 auto;
                 justify-content: center;
+            }
+
+            .hero-panel {
+                padding: 18px;
+                border-radius: 0 0 16px 16px;
+            }
+
+            .day-card {
+                padding: 18px;
+            }
+
+            .timeline-table th:first-child,
+            .timeline-table td:first-child {
+                width: 120px;
             }
         }
     </style>

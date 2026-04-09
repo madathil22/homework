@@ -54,7 +54,7 @@ title: Daily Activity
 
 ---
 
-<div class="day-card" markdown="1">
+<div class="day-card">
   <div class="day-header">
     <span class="icon-thumb">🌙</span>
     <div>
@@ -68,17 +68,22 @@ title: Daily Activity
     <span class="chip">🎯 Goal: Keep it simple</span>
   </div>
 
-| Time | Plan | Notes |
-| --- | --- | --- |
-| ~9:00 PM | Arrive at Jackson Hole Airport | Jackson Hole Airport (JAC), 1250 E Airport Rd, Jackson, WY 83001 |
-| 9:00 PM pickup | Pick up Hertz rental car | Jackson Hole Airport, 1250 E Airport Rd, Jackson, WY 83001 |
-| Pickup hours | Rental counter hours | Mon-Sun, 7:00 AM-10:00 PM |
-| Late evening | Quick grocery stop | Milk, water, breakfast basics, and snacks |
-| Late evening | Check in at The Lodge at Jackson Hole | 80 Scott Ln, Jackson, WY 83002 |
-| Night | Unpack lightly and sleep early | Set up for an early Grand Teton start |
+  <table class="timeline-table">
+    <thead>
+      <tr><th>Time</th><th>Plan</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>~9:00 PM</td><td>Arrive at Jackson Hole Airport</td><td>Jackson Hole Airport (JAC), 1250 E Airport Rd, Jackson, WY 83001</td></tr>
+      <tr><td>9:00 PM pickup</td><td>Pick up Hertz rental car</td><td>Jackson Hole Airport, 1250 E Airport Rd, Jackson, WY 83001</td></tr>
+      <tr><td>Pickup hours</td><td>Rental counter hours</td><td>Mon-Sun, 7:00 AM-10:00 PM</td></tr>
+      <tr><td>Late evening</td><td>Quick grocery stop</td><td>Milk, water, breakfast basics, and snacks</td></tr>
+      <tr><td>Late evening</td><td>Check in at The Lodge at Jackson Hole</td><td>80 Scott Ln, Jackson, WY 83002</td></tr>
+      <tr><td>Night</td><td>Unpack lightly and sleep early</td><td>Set up for an early Grand Teton start</td></tr>
+    </tbody>
+  </table>
 </div>
 
-<div class="day-card" markdown="1">
+<div class="day-card">
   <div class="day-header">
     <span class="icon-thumb">🏞️</span>
     <div>
@@ -92,18 +97,23 @@ title: Daily Activity
     <span class="chip">🚠 Tram later in the day</span>
   </div>
 
-| Time | Plan | Notes |
-| --- | --- | --- |
-| ~6:30 AM | Leave the hotel early | Early parking helps at Jenny Lake |
-| Morning | Jenny Lake visit | Boat across the lake, Hidden Falls, optional Inspiration Point |
-| Late morning | Scenic park time | Keep this flexible depending on energy and shuttle timing |
-| Lunch | Lunch in Teton Village | Easy reset before the afternoon |
-| Afternoon | Jackson Hole Aerial Tram | Teton Village, 3395 Cody Ln, Teton Village, WY 83025 |
-| Afternoon | Top-of-mountain stop | Ride up and grab waffles at Corbet's Cabin |
-| Evening | Return to the hotel | Pool, hot tub, or a quiet night |
+  <table class="timeline-table">
+    <thead>
+      <tr><th>Time</th><th>Plan</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>~6:30 AM</td><td>Leave the hotel early</td><td>Early parking helps at Jenny Lake</td></tr>
+      <tr><td>Morning</td><td>Jenny Lake visit</td><td>Boat across the lake, Hidden Falls, optional Inspiration Point</td></tr>
+      <tr><td>Late morning</td><td>Scenic park time</td><td>Keep this flexible depending on energy and shuttle timing</td></tr>
+      <tr><td>Lunch</td><td>Lunch in Teton Village</td><td>Easy reset before the afternoon</td></tr>
+      <tr><td>Afternoon</td><td>Jackson Hole Aerial Tram</td><td>Teton Village, 3395 Cody Ln, Teton Village, WY 83025</td></tr>
+      <tr><td>Afternoon</td><td>Top-of-mountain stop</td><td>Ride up and grab waffles at Corbet's Cabin</td></tr>
+      <tr><td>Evening</td><td>Return to the hotel</td><td>Pool, hot tub, or a quiet night</td></tr>
+    </tbody>
+  </table>
 </div>
 
-<div class="day-card" markdown="1">
+<div class="day-card">
   <div class="day-header">
     <span class="icon-thumb">🌄</span>
     <div>
@@ -117,18 +127,23 @@ title: Daily Activity
     <span class="chip">🍦 Easy Jackson afternoon</span>
   </div>
 
-| Time | Plan | Notes |
-| --- | --- | --- |
-| ~7:30-8:00 AM | Start from the hotel | Moderate, unhurried morning |
-| Morning | Grand Teton scenic stops | Schwabacher Landing and Snake River Overlook |
-| Late morning | Optional short hike | Taggart Lake if you want one active stop |
-| Lunch | Lunch near Jackson Town Square | Good day for a relaxed sit-down meal |
-| Afternoon | Walk around Jackson | Antler arches, shops, coffee, and ice cream |
-| Evening | Dinner in Jackson | Keep it flexible based on energy |
-| Night | Return to the hotel | Rest before the Yellowstone transfer day |
+  <table class="timeline-table">
+    <thead>
+      <tr><th>Time</th><th>Plan</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>~7:30-8:00 AM</td><td>Start from the hotel</td><td>Moderate, unhurried morning</td></tr>
+      <tr><td>Morning</td><td>Grand Teton scenic stops</td><td>Schwabacher Landing and Snake River Overlook</td></tr>
+      <tr><td>Late morning</td><td>Optional short hike</td><td>Taggart Lake if you want one active stop</td></tr>
+      <tr><td>Lunch</td><td>Lunch near Jackson Town Square</td><td>Good day for a relaxed sit-down meal</td></tr>
+      <tr><td>Afternoon</td><td>Walk around Jackson</td><td>Antler arches, shops, coffee, and ice cream</td></tr>
+      <tr><td>Evening</td><td>Dinner in Jackson</td><td>Keep it flexible based on energy</td></tr>
+      <tr><td>Night</td><td>Return to the hotel</td><td>Rest before the Yellowstone transfer day</td></tr>
+    </tbody>
+  </table>
 </div>
 
-<div class="day-card" markdown="1">
+<div class="day-card">
   <div class="day-header">
     <span class="icon-thumb">🚗</span>
     <div>
@@ -142,19 +157,24 @@ title: Daily Activity
     <span class="chip">♨️ West Thumb stop</span>
   </div>
 
-| Time | Plan | Notes |
-| --- | --- | --- |
-| ~8:00 AM | Leave Jackson | Aim for an efficient morning departure |
-| Morning | Oxbow Bend stop | Quick scenic stop on the way north |
-| Morning | Enter Yellowstone via the South Entrance | Keep snacks and water handy for the drive |
-| Late morning | West Thumb Geyser Basin | Easy boardwalk walk and first geothermal stop |
-| Lunch | Light lunch | Picnic or simple stop near Grant Village |
-| Afternoon | Drive to West Yellowstone | Keep fuel and restroom stops practical |
-| Late afternoon | Check in at Hibernation Station | 212 Gray Wolf Ave, West Yellowstone, MT 59758 |
-| Evening | Grocery stop and easy dinner | Set up the cabin for two full Yellowstone days |
+  <table class="timeline-table">
+    <thead>
+      <tr><th>Time</th><th>Plan</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>~8:00 AM</td><td>Leave Jackson</td><td>Aim for an efficient morning departure</td></tr>
+      <tr><td>Morning</td><td>Oxbow Bend stop</td><td>Quick scenic stop on the way north</td></tr>
+      <tr><td>Morning</td><td>Enter Yellowstone via the South Entrance</td><td>Keep snacks and water handy for the drive</td></tr>
+      <tr><td>Late morning</td><td>West Thumb Geyser Basin</td><td>Easy boardwalk walk and first geothermal stop</td></tr>
+      <tr><td>Lunch</td><td>Light lunch</td><td>Picnic or simple stop near Grant Village</td></tr>
+      <tr><td>Afternoon</td><td>Drive to West Yellowstone</td><td>Keep fuel and restroom stops practical</td></tr>
+      <tr><td>Late afternoon</td><td>Check in at Hibernation Station</td><td>212 Gray Wolf Ave, West Yellowstone, MT 59758</td></tr>
+      <tr><td>Evening</td><td>Grocery stop and easy dinner</td><td>Set up the cabin for two full Yellowstone days</td></tr>
+    </tbody>
+  </table>
 </div>
 
-<div class="day-card" markdown="1">
+<div class="day-card">
   <div class="day-header">
     <span class="icon-thumb">♨️</span>
     <div>
@@ -168,20 +188,25 @@ title: Daily Activity
     <span class="chip">⚡ Pace: Active morning, easy evening</span>
   </div>
 
-| Time | Plan | Notes |
-| --- | --- | --- |
-| ~7:00 AM | Leave Hibernation Station | Early start helps with parking and cooler walking |
-| Morning | Grand Prismatic Spring | Start with Midway Geyser Basin |
-| Morning | Fairy Falls overlook | Best elevated view of Grand Prismatic |
-| Late morning | Drive to Old Faithful | Keep an eye on eruption timing once you arrive |
-| Midday | Old Faithful eruption + Upper Geyser Basin | Do the main boardwalk area at a comfortable pace |
-| Lunch | Simple lunch in the Old Faithful area | Quick and easy is best here |
-| Early afternoon | Fountain Paint Pot | Good final geothermal stop on the way back |
-| ~3:30-4:00 PM | Head back toward West Yellowstone | Leave before the day feels too long |
-| Evening | Dinner in West Yellowstone | Easy dinner, then relax at the cabin |
+  <table class="timeline-table">
+    <thead>
+      <tr><th>Time</th><th>Plan</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>~7:00 AM</td><td>Leave Hibernation Station</td><td>Early start helps with parking and cooler walking</td></tr>
+      <tr><td>Morning</td><td>Grand Prismatic Spring</td><td>Start with Midway Geyser Basin</td></tr>
+      <tr><td>Morning</td><td>Fairy Falls overlook</td><td>Best elevated view of Grand Prismatic</td></tr>
+      <tr><td>Late morning</td><td>Drive to Old Faithful</td><td>Keep an eye on eruption timing once you arrive</td></tr>
+      <tr><td>Midday</td><td>Old Faithful eruption + Upper Geyser Basin</td><td>Do the main boardwalk area at a comfortable pace</td></tr>
+      <tr><td>Lunch</td><td>Simple lunch in the Old Faithful area</td><td>Quick and easy is best here</td></tr>
+      <tr><td>Early afternoon</td><td>Fountain Paint Pot</td><td>Good final geothermal stop on the way back</td></tr>
+      <tr><td>~3:30-4:00 PM</td><td>Head back toward West Yellowstone</td><td>Leave before the day feels too long</td></tr>
+      <tr><td>Evening</td><td>Dinner in West Yellowstone</td><td>Easy dinner, then relax at the cabin</td></tr>
+    </tbody>
+  </table>
 </div>
 
-<div class="day-card" markdown="1">
+<div class="day-card">
   <div class="day-header">
     <span class="icon-thumb">🦬</span>
     <div>
@@ -195,20 +220,25 @@ title: Daily Activity
     <span class="chip">🌿 Pace: Flexible and relaxed</span>
   </div>
 
-| Time | Plan | Notes |
-| --- | --- | --- |
-| ~7:30-8:00 AM | Leave Hibernation Station | Easier start than Wednesday |
-| Morning | Grand Canyon of the Yellowstone | Start with the canyon area while energy is fresh |
-| Morning | Artist Point | Must-do overlook |
-| Late morning | Lookout Point + Upper Falls | Good mix of viewpoints without overpacking the day |
-| Lunch | Canyon Village or picnic lunch | Relaxed stop, no rush |
-| Early afternoon | Hayden Valley scenic drive | Main wildlife window of the day |
-| Optional | Norris Geyser Basin | Add only if timing and energy feel good |
-| ~4:00-5:00 PM | Return to West Yellowstone | Keep the drive back relaxed |
-| Evening | Dinner, pack, and unwind | Easy finish before departure day |
+  <table class="timeline-table">
+    <thead>
+      <tr><th>Time</th><th>Plan</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>~7:30-8:00 AM</td><td>Leave Hibernation Station</td><td>Easier start than Wednesday</td></tr>
+      <tr><td>Morning</td><td>Grand Canyon of the Yellowstone</td><td>Start with the canyon area while energy is fresh</td></tr>
+      <tr><td>Morning</td><td>Artist Point</td><td>Must-do overlook</td></tr>
+      <tr><td>Late morning</td><td>Lookout Point + Upper Falls</td><td>Good mix of viewpoints without overpacking the day</td></tr>
+      <tr><td>Lunch</td><td>Canyon Village or picnic lunch</td><td>Relaxed stop, no rush</td></tr>
+      <tr><td>Early afternoon</td><td>Hayden Valley scenic drive</td><td>Main wildlife window of the day</td></tr>
+      <tr><td>Optional</td><td>Norris Geyser Basin</td><td>Add only if timing and energy feel good</td></tr>
+      <tr><td>~4:00-5:00 PM</td><td>Return to West Yellowstone</td><td>Keep the drive back relaxed</td></tr>
+      <tr><td>Evening</td><td>Dinner, pack, and unwind</td><td>Easy finish before departure day</td></tr>
+    </tbody>
+  </table>
 </div>
 
-<div class="day-card" markdown="1">
+<div class="day-card">
   <div class="day-header">
     <span class="icon-thumb">🛫</span>
     <div>
@@ -222,15 +252,20 @@ title: Daily Activity
     <span class="chip">🧭 Goal: Smooth transfer morning</span>
   </div>
 
-| Time | Plan | Notes |
-| --- | --- | --- |
-| Early morning | Check out from Hibernation Station | 212 Gray Wolf Ave, West Yellowstone, MT 59758 |
-| Morning | Drive from West Yellowstone to Bozeman | Keep this leg simple and direct |
-| 10:00 AM drop-off | Return Hertz rental car at Bozeman Yellowstone International Airport | 850 Gallatin Field Road, Belgrade, MT 59714-8546 |
-| Drop-off hours | Rental location hours | Mon-Sun, 7:00 AM-12:30 AM |
-| 11:38 AM | Nonstop flight departs BZN | Bozeman, MT to Newark, NJ / New York, NY |
-| 6:00 PM | Arrive at EWR | Scheduled arrival time |
-| Total flight time | 4h 22m | Nonstop |
+  <table class="timeline-table">
+    <thead>
+      <tr><th>Time</th><th>Plan</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Early morning</td><td>Check out from Hibernation Station</td><td>212 Gray Wolf Ave, West Yellowstone, MT 59758</td></tr>
+      <tr><td>Morning</td><td>Drive from West Yellowstone to Bozeman</td><td>Keep this leg simple and direct</td></tr>
+      <tr><td>10:00 AM drop-off</td><td>Return Hertz rental car at Bozeman Yellowstone International Airport</td><td>850 Gallatin Field Road, Belgrade, MT 59714-8546</td></tr>
+      <tr><td>Drop-off hours</td><td>Rental location hours</td><td>Mon-Sun, 7:00 AM-12:30 AM</td></tr>
+      <tr><td>11:38 AM</td><td>Nonstop flight departs BZN</td><td>Bozeman, MT to Newark, NJ / New York, NY</td></tr>
+      <tr><td>6:00 PM</td><td>Arrive at EWR</td><td>Scheduled arrival time</td></tr>
+      <tr><td>Total flight time</td><td>4h 22m</td><td>Nonstop</td></tr>
+    </tbody>
+  </table>
 </div>
 
 ## Planning Notes

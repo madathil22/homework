@@ -89,6 +89,57 @@
             background: rgba(255, 255, 255, 0.16);
         }
 
+        .crumb-nav {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 16px;
+            color: #d7e8ec;
+            font-weight: 600;
+        }
+
+        .crumb-nav a {
+            color: white;
+            text-decoration: none;
+            border-bottom: none;
+            opacity: 0.88;
+        }
+
+        .crumb-nav a:hover,
+        .crumb-nav a.is-active {
+            opacity: 1;
+        }
+
+        .crumb-sep {
+            opacity: 0.65;
+        }
+
+        .section-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 14px;
+        }
+
+        .section-nav a {
+            display: inline-flex;
+            align-items: center;
+            min-height: 38px;
+            padding: 8px 12px;
+            border: 1px solid rgba(255, 255, 255, 0.34);
+            border-radius: 999px;
+            color: white;
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .section-nav a:hover,
+        .section-nav a.is-active {
+            background: rgba(255, 255, 255, 0.18);
+            border-color: rgba(255, 255, 255, 0.46);
+        }
+
         main {
             padding: 32px;
         }
@@ -431,13 +482,20 @@
         <header class="site-header">
             <div class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
             <div class="site-subtitle">{{ site.description }}</div>
-            <nav class="top-nav" aria-label="Trip navigation">
-                <a href="{{ '/' | relative_url }}">Trips</a>
-                <a href="{{ '/Trips/Yellowstone/' | relative_url }}">Yellowstone</a>
-                <a href="{{ '/Trips/Yellowstone/QuickGuide' | relative_url }}">Quick Guide</a>
-                <a href="{{ '/Trips/Yellowstone/DailyActivity' | relative_url }}">Daily Plan</a>
-                <a href="{{ '/Trips/Yellowstone/Todo' | relative_url }}">TODO</a>
+            <nav class="crumb-nav" aria-label="Breadcrumb">
+                <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}is-active{% endif %}">Trips</a>
+                {% if page.url contains '/Trips/Yellowstone' %}
+                <span class="crumb-sep">›</span>
+                <a href="{{ '/Trips/Yellowstone/' | relative_url }}" class="{% if page.url == '/Trips/Yellowstone/' %}is-active{% endif %}">Yellowstone</a>
+                {% endif %}
             </nav>
+            {% if page.url contains '/Trips/Yellowstone' %}
+            <nav class="section-nav" aria-label="Yellowstone sections">
+                <a href="{{ '/Trips/Yellowstone/' | relative_url }}" class="{% if page.url == '/Trips/Yellowstone/' %}is-active{% endif %}">Overview</a>
+                <a href="{{ '/Trips/Yellowstone/DailyActivity' | relative_url }}" class="{% if page.url contains '/Trips/Yellowstone/DailyActivity' %}is-active{% endif %}">Daily</a>
+                <a href="{{ '/Trips/Yellowstone/Todo' | relative_url }}" class="{% if page.url contains '/Trips/Yellowstone/Todo' %}is-active{% endif %}">TODO</a>
+            </nav>
+            {% endif %}
         </header>
         <main>
             {{ content }}

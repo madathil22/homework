@@ -9,27 +9,29 @@ title: Yellowstone & Grand Teton Adventure
 
 ---
 
-## Quick Access
+## Yellowstone Hub
 
 <div class="quick-grid">
   <div class="quick-card">
-    <h3>Quick Guide</h3>
-    <p>Fast lookup for dates, addresses, official links, and planning gaps.</p>
-    <p><a href="QuickGuide">Open quick guide</a></p>
+    <h3>Daily</h3>
+    <p>Use the visual timeline for each day, including hotel transitions, Yellowstone routing, and your flight home.</p>
+    <p><a href="DailyActivity">Open daily plan</a></p>
   </div>
   <div class="quick-card">
-    <h3>Daily Plan</h3>
-    <p>Day-by-day itinerary for Jackson, Grand Teton, and Yellowstone.</p>
-    <p><a href="DailyActivity">Open itinerary</a></p>
-  </div>
-  <div class="quick-card">
-    <h3>Trip TODO</h3>
-    <p>Bookings, packing, final checks, and prep checklist.</p>
-    <p><a href="Todo">Open checklist</a></p>
+    <h3>TODO</h3>
+    <p>Use the checklist for final prep, park checks, tickets, packing, and anything still left to confirm.</p>
+    <p><a href="Todo">Open trip todo</a></p>
   </div>
 </div>
 
 ---
+
+## At A Glance
+
+- **Start:** Fly into Jackson Hole Airport on Saturday, May 23 at 9:00 PM and pick up the Hertz rental car
+- **Jackson base:** The Lodge at Jackson Hole from May 23-25
+- **Yellowstone base:** Hibernation Station in West Yellowstone from May 26-28
+- **Return:** Drive to Bozeman on Friday, May 29, drop the rental car at 10:00 AM, then fly nonstop from BZN to EWR at 11:38 AM
 
 ## Current Plan
 
@@ -45,7 +47,7 @@ title: Yellowstone & Grand Teton Adventure
 
 - **Jenny Lake Boat Shuttle**: easier access to Hidden Falls and Inspiration Point
 - **Jackson Hole Aerial Tram**: high-alpine views, Corbet's Cabin waffles, weather-dependent
-- **Geyser Basin Exploration**: Old Faithful, West Thumb, Grand Prismatic candidates
-- **Scenic Drives**: Oxbow Bend, Yellowstone entrances, canyon and valley routes
+- **Geyser Day**: Old Faithful, Grand Prismatic overlook, Upper Geyser Basin, Fountain Paint Pot
+- **Canyon + Wildlife Day**: Artist Point, Upper Falls, Hayden Valley, optional Norris
 
 ---

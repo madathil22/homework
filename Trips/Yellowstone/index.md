@@ -9,13 +9,15 @@ title: Yellowstone & Grand Teton Adventure
 
 <div class="quick-grid">
   <div class="quick-card">
-    <h3>Daily Plan</h3>
-    <p>Open the visual trip timeline for hotel changes, park days, drive flow, and the Bozeman flight home.</p>
-    <p><a href="DailyActivity">Open daily plan</a></p>
+    <a class="card-link" href="DailyActivity">
+      <h3>Daily Plan</h3>
+      <p>Open the visual trip timeline for hotel changes, park days, drive flow, and the Bozeman flight home.</p>
+    </a>
   </div>
   <div class="quick-card">
-    <h3>TODO</h3>
-    <p>Open the checklist for tickets, park checks, packing, final confirmations, and anything still left to do.</p>
-    <p><a href="Todo">Open trip todo</a></p>
+    <a class="card-link" href="Todo">
+      <h3>TODO</h3>
+      <p>Open the checklist for tickets, park checks, packing, final confirmations, and anything still left to do.</p>
+    </a>
   </div>
 </div>

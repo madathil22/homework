@@ -252,13 +252,37 @@
 
         .quick-card {
             border: 1px solid var(--line);
-            border-radius: 8px;
-            padding: 16px;
-            background: var(--surface-muted);
+            border-radius: 16px;
+            padding: 18px;
+            background: linear-gradient(180deg, #ffffff, #f7fafb);
+            box-shadow: 0 8px 24px rgba(22, 48, 58, 0.08);
         }
 
         .quick-card h3 {
             margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        .quick-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        .quick-card a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 42px;
+            padding: 9px 14px;
+            border-radius: 999px;
+            border: none;
+            background: var(--accent-soft);
+            color: var(--accent-dark);
+            font-weight: 700;
+        }
+
+        .quick-card a:hover {
+            color: var(--accent-dark);
+            background: #cbe8ee;
         }
 
         .badge {
@@ -448,6 +472,10 @@
                 padding: 22px 18px;
             }
 
+            main {
+                padding-bottom: 28px;
+            }
+
             h1 {
                 font-size: 1.75rem;
             }
@@ -461,6 +489,36 @@
                 justify-content: center;
             }
 
+            .crumb-nav {
+                gap: 6px;
+                font-size: 0.95rem;
+            }
+
+            .section-nav {
+                display: grid;
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+                gap: 8px;
+            }
+
+            .section-nav a {
+                justify-content: center;
+                padding: 10px 8px;
+                min-height: 42px;
+                font-size: 0.95rem;
+            }
+
+            .quick-grid,
+            .anchor-grid {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .quick-card,
+            .anchor-card {
+                padding: 16px;
+                border-radius: 14px;
+            }
+
             .hero-panel {
                 padding: 18px;
                 border-radius: 0 0 16px 16px;
@@ -468,11 +526,34 @@
 
             .day-card {
                 padding: 18px;
+                margin: 18px 0;
             }
 
             .timeline-table th:first-child,
             .timeline-table td:first-child {
                 width: 120px;
+            }
+
+            .timeline-table th,
+            .timeline-table td {
+                padding: 9px 10px;
+                font-size: 0.94rem;
+            }
+
+            .chip-row {
+                gap: 7px;
+            }
+
+            .chip {
+                width: 100%;
+                justify-content: flex-start;
+            }
+
+            .icon-thumb {
+                width: 34px;
+                height: 34px;
+                border-radius: 10px;
+                font-size: 1rem;
             }
         }
     </style>

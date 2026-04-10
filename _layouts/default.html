@@ -281,26 +281,49 @@
 
         .quick-card {
             border: 1px solid var(--line);
-            border-radius: 16px;
-            background: linear-gradient(180deg, #ffffff, #f7fafb);
-            box-shadow: 0 8px 24px rgba(22, 48, 58, 0.08);
+            border-radius: 20px;
+            background:
+                linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(242, 249, 251, 0.92)),
+                radial-gradient(circle at top left, rgba(255, 255, 255, 0.9), transparent 42%);
+            box-shadow:
+                inset 0 1px 0 rgba(255, 255, 255, 0.95),
+                0 18px 36px rgba(22, 48, 58, 0.14),
+                0 4px 10px rgba(15, 107, 120, 0.08);
             overflow: hidden;
-            transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+            transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease, background 180ms ease;
+            position: relative;
         }
 
         .quick-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 14px 30px rgba(22, 48, 58, 0.12);
-            border-color: #c0d7de;
+            transform: translateY(-4px) scale(1.01);
+            box-shadow:
+                inset 0 1px 0 rgba(255, 255, 255, 0.95),
+                0 26px 44px rgba(22, 48, 58, 0.18),
+                0 6px 14px rgba(15, 107, 120, 0.1);
+            border-color: #b5d5dc;
+        }
+
+        .quick-card::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.45), transparent 38%, rgba(15, 107, 120, 0.04));
+            pointer-events: none;
+        }
+
+        .quick-card:active {
+            transform: translateY(-1px) scale(0.995);
         }
 
         .card-link {
             display: block;
             height: 100%;
-            padding: 18px;
+            padding: 20px;
             color: inherit;
             text-decoration: none;
             border-bottom: none;
+            position: relative;
+            z-index: 1;
         }
 
         .card-link:hover {
@@ -315,24 +338,6 @@
 
         .quick-card p:last-child {
             margin-bottom: 0;
-        }
-
-        .card-link::after {
-            content: "Open";
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            min-height: 42px;
-            margin-top: 14px;
-            padding: 9px 14px;
-            border-radius: 999px;
-            background: var(--accent-soft);
-            color: var(--accent-dark);
-            font-weight: 700;
-        }
-
-        .quick-card.trip-card .card-link::after {
-            content: "Open Trip";
         }
 
         .quick-card p.badge-row {
@@ -580,6 +585,13 @@
             .quick-card,
             .anchor-card {
                 border-radius: 14px;
+            }
+
+            .quick-card {
+                box-shadow:
+                    inset 0 1px 0 rgba(255, 255, 255, 0.92),
+                    0 14px 26px rgba(22, 48, 58, 0.12),
+                    0 4px 10px rgba(15, 107, 120, 0.08);
             }
 
             .anchor-card {

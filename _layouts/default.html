@@ -140,6 +140,35 @@
             border-color: rgba(255, 255, 255, 0.46);
         }
 
+        .section-nav-toggle {
+            display: none;
+            margin-top: 12px;
+        }
+
+        .section-nav-toggle summary {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            min-height: 38px;
+            padding: 8px 12px;
+            border: 1px solid rgba(255, 255, 255, 0.34);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.08);
+            color: white;
+            cursor: pointer;
+            list-style: none;
+            font-weight: 600;
+        }
+
+        .section-nav-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .section-nav-toggle[open] summary {
+            background: rgba(255, 255, 255, 0.18);
+            border-color: rgba(255, 255, 255, 0.46);
+        }
+
         main {
             padding: 32px;
         }
@@ -492,15 +521,25 @@
             .crumb-nav {
                 gap: 6px;
                 font-size: 0.95rem;
+                margin-top: 10px;
             }
 
             .section-nav {
-                display: grid;
-                grid-template-columns: repeat(3, minmax(0, 1fr));
-                gap: 8px;
+                display: none;
             }
 
-            .section-nav a {
+            .section-nav-toggle {
+                display: block;
+            }
+
+            .section-nav-toggle .section-nav {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 8px;
+                margin-top: 10px;
+            }
+
+            .section-nav-toggle .section-nav a {
                 justify-content: center;
                 padding: 10px 8px;
                 min-height: 42px;
@@ -576,6 +615,14 @@
                 <a href="{{ '/Trips/Yellowstone/DailyActivity' | relative_url }}" class="{% if page.url contains '/Trips/Yellowstone/DailyActivity' %}is-active{% endif %}">Daily</a>
                 <a href="{{ '/Trips/Yellowstone/Todo' | relative_url }}" class="{% if page.url contains '/Trips/Yellowstone/Todo' %}is-active{% endif %}">TODO</a>
             </nav>
+            <details class="section-nav-toggle">
+                <summary>Sections</summary>
+                <nav class="section-nav" aria-label="Yellowstone sections mobile">
+                    <a href="{{ '/Trips/Yellowstone/' | relative_url }}" class="{% if page.url == '/Trips/Yellowstone/' %}is-active{% endif %}">Overview</a>
+                    <a href="{{ '/Trips/Yellowstone/DailyActivity' | relative_url }}" class="{% if page.url contains '/Trips/Yellowstone/DailyActivity' %}is-active{% endif %}">Daily</a>
+                    <a href="{{ '/Trips/Yellowstone/Todo' | relative_url }}" class="{% if page.url contains '/Trips/Yellowstone/Todo' %}is-active{% endif %}">TODO</a>
+                </nav>
+            </details>
             {% endif %}
         </header>
         <main>

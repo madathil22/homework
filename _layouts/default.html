@@ -251,15 +251,16 @@
         }
 
         .quick-card {
-            border: 1px solid var(--line);
+            border: 1px solid #a7d2bf;
             border-radius: 20px;
             background:
-                linear-gradient(180deg, rgba(250, 255, 252, 0.98), rgba(232, 247, 239, 0.94)),
-                radial-gradient(circle at top left, rgba(255, 255, 255, 0.92), transparent 42%);
+                linear-gradient(180deg, rgba(237, 251, 243, 0.99), rgba(196, 231, 212, 0.96)),
+                radial-gradient(circle at top left, rgba(255, 255, 255, 0.95), transparent 42%),
+                linear-gradient(135deg, rgba(15, 107, 120, 0.08), rgba(28, 139, 116, 0.22));
             box-shadow:
                 inset 0 1px 0 rgba(255, 255, 255, 0.95),
                 0 18px 36px rgba(22, 48, 58, 0.14),
-                0 6px 14px rgba(53, 130, 94, 0.12);
+                0 10px 22px rgba(28, 139, 116, 0.22);
             overflow: hidden;
             transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease, background 180ms ease;
             position: relative;
@@ -270,15 +271,17 @@
             box-shadow:
                 inset 0 1px 0 rgba(255, 255, 255, 0.95),
                 0 26px 44px rgba(22, 48, 58, 0.18),
-                0 8px 18px rgba(53, 130, 94, 0.16);
-            border-color: #afd7c0;
+                0 14px 26px rgba(28, 139, 116, 0.28);
+            border-color: #82c4a7;
         }
 
         .quick-card::before {
             content: "";
             position: absolute;
             inset: 0;
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.46), transparent 38%, rgba(72, 146, 101, 0.08));
+            background:
+                linear-gradient(135deg, rgba(255, 255, 255, 0.54), transparent 38%, rgba(28, 139, 116, 0.14)),
+                radial-gradient(circle at top right, rgba(255, 255, 255, 0.32), transparent 30%);
             pointer-events: none;
         }
 
@@ -544,7 +547,7 @@
                 box-shadow:
                     inset 0 1px 0 rgba(255, 255, 255, 0.92),
                     0 14px 26px rgba(22, 48, 58, 0.12),
-                    0 4px 10px rgba(53, 130, 94, 0.12);
+                    0 8px 16px rgba(28, 139, 116, 0.2);
             }
 
             .anchor-card {

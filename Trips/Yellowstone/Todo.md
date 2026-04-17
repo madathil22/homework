@@ -29,7 +29,7 @@ title: Trip TODO
     <li><input type="checkbox"> Book Jenny Lake boat shuttle tickets for Sunday, May 24.</li>
     <li><input type="checkbox"> Book Jackson Hole Aerial Tram tickets for Sunday, May 24 after lunch.</li>
     <li><input type="checkbox"> Confirm late check-in with The Lodge at Jackson Hole for Saturday, May 23.</li>
-    <li><input type="checkbox"> Confirm Hibernation Station cabin details for the West Yellowstone stay.</li>
+    <li><input type="checkbox"> Confirm Yellowstone West Gate Hotel details for the West Yellowstone stay.</li>
     <li><input type="checkbox"> Add hotel and activity confirmation numbers to private trip notes.</li>
   </ul>
 </div>
@@ -43,8 +43,8 @@ title: Trip TODO
     </div>
   </div>
   <ul>
-    <li><input type="checkbox"> Save Hertz rental details for Jackson pickup and Bozeman drop-off.</li>
-    <li><input type="checkbox"> Decide on the park pass plan: America the Beautiful Pass or pay at the entrance.</li>
+    <li><input type="checkbox" checked> Save Hertz rental details for Jackson pickup and Bozeman drop-off.</li>
+    <li><input type="checkbox" checked> Annual national parks pass is ready for the trip.</li>
     <li><input type="checkbox"> Download offline Google Maps for Jackson, Grand Teton, West Yellowstone, Yellowstone, and Bozeman.</li>
     <li><input type="checkbox"> Save the official Yellowstone road status page.</li>
     <li><input type="checkbox"> Save the Grand Teton alerts page.</li>

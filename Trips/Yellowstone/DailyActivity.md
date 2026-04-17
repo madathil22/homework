@@ -41,7 +41,7 @@ title: Daily Activity
   </div>
   <div class="anchor-card">
     <div class="anchor-label"><span class="icon-thumb">🏡</span> Yellowstone Stay</div>
-    <p><strong>Hibernation Station</strong><br>212 Gray Wolf Ave<br>West Yellowstone, MT 59758</p>
+    <p><strong>Yellowstone West Gate Hotel</strong><br>638 Madison Ave<br>West Yellowstone, MT 59758</p>
   </div>
   <div class="anchor-card">
     <div class="anchor-label"><span class="icon-thumb">🛫</span> BZN Departure</div>
@@ -152,7 +152,7 @@ title: Daily Activity
     </div>
   </div>
   <div class="chip-row">
-    <span class="chip">🏡 Overnight: Hibernation Station</span>
+    <span class="chip">🏡 Overnight: Yellowstone West Gate Hotel</span>
     <span class="chip">📍 South Entrance route</span>
     <span class="chip">♨️ West Thumb stop</span>
   </div>
@@ -168,8 +168,8 @@ title: Daily Activity
       <tr><td>Late morning</td><td>West Thumb Geyser Basin</td><td>Easy boardwalk walk and first geothermal stop</td></tr>
       <tr><td>Lunch</td><td>Light lunch</td><td>Picnic or simple stop near Grant Village</td></tr>
       <tr><td>Afternoon</td><td>Drive to West Yellowstone</td><td>Keep fuel and restroom stops practical</td></tr>
-      <tr><td>Late afternoon</td><td>Check in at Hibernation Station</td><td>212 Gray Wolf Ave, West Yellowstone, MT 59758</td></tr>
-      <tr><td>Evening</td><td>Grocery stop and easy dinner</td><td>Set up the cabin for two full Yellowstone days</td></tr>
+      <tr><td>Late afternoon</td><td>Check in at Yellowstone West Gate Hotel</td><td>638 Madison Ave, West Yellowstone, MT 59758</td></tr>
+      <tr><td>Evening</td><td>Grocery stop and easy dinner</td><td>Set up at the hotel for two full Yellowstone days</td></tr>
     </tbody>
   </table>
 </div>
@@ -183,7 +183,7 @@ title: Daily Activity
     </div>
   </div>
   <div class="chip-row">
-    <span class="chip">🏡 Overnight: Hibernation Station</span>
+    <span class="chip">🏡 Overnight: Yellowstone West Gate Hotel</span>
     <span class="chip">🔥 Focus: Geysers + geothermal features</span>
     <span class="chip">⚡ Pace: Active morning, easy evening</span>
   </div>
@@ -193,7 +193,7 @@ title: Daily Activity
       <tr><th>Time</th><th>Plan</th><th>Notes</th></tr>
     </thead>
     <tbody>
-      <tr><td>~7:00 AM</td><td>Leave Hibernation Station</td><td>Early start helps with parking and cooler walking</td></tr>
+      <tr><td>~7:00 AM</td><td>Leave Yellowstone West Gate Hotel</td><td>Early start helps with parking and cooler walking</td></tr>
       <tr><td>Morning</td><td>Grand Prismatic Spring</td><td>Start with Midway Geyser Basin</td></tr>
       <tr><td>Morning</td><td>Fairy Falls overlook</td><td>Best elevated view of Grand Prismatic</td></tr>
       <tr><td>Late morning</td><td>Drive to Old Faithful</td><td>Keep an eye on eruption timing once you arrive</td></tr>
@@ -201,7 +201,7 @@ title: Daily Activity
       <tr><td>Lunch</td><td>Simple lunch in the Old Faithful area</td><td>Quick and easy is best here</td></tr>
       <tr><td>Early afternoon</td><td>Fountain Paint Pot</td><td>Good final geothermal stop on the way back</td></tr>
       <tr><td>~3:30-4:00 PM</td><td>Head back toward West Yellowstone</td><td>Leave before the day feels too long</td></tr>
-      <tr><td>Evening</td><td>Dinner in West Yellowstone</td><td>Easy dinner, then relax at the cabin</td></tr>
+      <tr><td>Evening</td><td>Dinner in West Yellowstone</td><td>Easy dinner, then relax at the hotel</td></tr>
     </tbody>
   </table>
 </div>
@@ -215,7 +215,7 @@ title: Daily Activity
     </div>
   </div>
   <div class="chip-row">
-    <span class="chip">🏡 Overnight: Hibernation Station</span>
+    <span class="chip">🏡 Overnight: Yellowstone West Gate Hotel</span>
     <span class="chip">🌊 Focus: Canyon + waterfalls + wildlife</span>
     <span class="chip">🌿 Pace: Flexible and relaxed</span>
   </div>
@@ -225,7 +225,7 @@ title: Daily Activity
       <tr><th>Time</th><th>Plan</th><th>Notes</th></tr>
     </thead>
     <tbody>
-      <tr><td>~7:30-8:00 AM</td><td>Leave Hibernation Station</td><td>Easier start than Wednesday</td></tr>
+      <tr><td>~7:30-8:00 AM</td><td>Leave Yellowstone West Gate Hotel</td><td>Easier start than Wednesday</td></tr>
       <tr><td>Morning</td><td>Grand Canyon of the Yellowstone</td><td>Start with the canyon area while energy is fresh</td></tr>
       <tr><td>Morning</td><td>Artist Point</td><td>Must-do overlook</td></tr>
       <tr><td>Late morning</td><td>Lookout Point + Upper Falls</td><td>Good mix of viewpoints without overpacking the day</td></tr>
@@ -257,7 +257,7 @@ title: Daily Activity
       <tr><th>Time</th><th>Plan</th><th>Notes</th></tr>
     </thead>
     <tbody>
-      <tr><td>Early morning</td><td>Check out from Hibernation Station</td><td>212 Gray Wolf Ave, West Yellowstone, MT 59758</td></tr>
+      <tr><td>Early morning</td><td>Check out from Yellowstone West Gate Hotel</td><td>638 Madison Ave, West Yellowstone, MT 59758</td></tr>
       <tr><td>Morning</td><td>Drive from West Yellowstone to Bozeman</td><td>Keep this leg simple and direct</td></tr>
       <tr><td>10:00 AM drop-off</td><td>Return Hertz rental car at Bozeman Yellowstone International Airport</td><td>850 Gallatin Field Road, Belgrade, MT 59714-8546</td></tr>
       <tr><td>Drop-off hours</td><td>Rental location hours</td><td>Mon-Sun, 7:00 AM-12:30 AM</td></tr>
